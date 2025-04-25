@@ -1,0 +1,12 @@
+/* write your css here */
+
+/* Hide scrollbar but keep scrolling */
+.scroll-container {
+    overflow: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE/Edge */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
